@@ -1,6 +1,8 @@
 body {
   text-align: center;
   background-color: #EBEF95;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -9,6 +11,11 @@ h1 {
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #EF9595;
 
+}
+
+.set {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
